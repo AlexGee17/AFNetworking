@@ -41,7 +41,7 @@ let package = Package(
         .target(
             name: "AFNetworking",
             path: "AFNetworking",
-            resources: [.copy("PrivacyInfo.xcprivacy")],
+            resources: [.process("PrivacyInfo.xcprivacy")],
             publicHeadersPath: ""
         ),
         .target(
